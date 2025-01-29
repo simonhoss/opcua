@@ -45,7 +45,7 @@ mod aes_128_sha_256_rsa_oaep {
 
     pub const SYMMETRIC_SIGNATURE_ALGORITHM: &str = DSIG_HMAC_SHA256;
     pub const ASYMMETRIC_SIGNATURE_ALGORITHM: &str = DSIG_RSA_SHA256;
-    pub const ASYMMETRIC_ENCRYPTION_ALGORITHM: &str = ENC_RSA_15;
+    pub const ASYMMETRIC_ENCRYPTION_ALGORITHM: &str = ENC_RSA_OAEP;
     pub const DERIVED_SIGNATURE_KEY_LENGTH: usize = 256;
     pub const ASYMMETRIC_KEY_LENGTH: (usize, usize) = (2048, 4096);
 }
